@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: linear-gradient(rgba(185, 179, 179, 0.329), rgba(185, 175, 175, 0.514));
+    background-image: url(bg1.jpg);
+    height: 100vw;
+    width: 120vw;
+    position: fixed;
+
+}
+
+
+#image{
+   height: 200px;
+   width: 200px;
+   opacity: 0.9;
+  
+ 
+
+}
+.picture {
+    border: 1px solid black;
+}
+
+button {
+    background-color: #333333;;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
